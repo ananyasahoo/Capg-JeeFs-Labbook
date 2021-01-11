@@ -15,7 +15,7 @@ public class ExcerciseString8 {
 	    else
 	    	System.out.print("Negative string");
 		}
-		private static boolean checkString(String str,int len,Scanner scanner)
+		private static boolean checkString(String str)
 		{
 			char []arr=str.toCharArray();
 			for(int index=0;index<len-1;index++)
