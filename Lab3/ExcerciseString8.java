@@ -10,7 +10,7 @@ public class ExcerciseString8 {
 		Scanner scanner = new Scanner(System.in);
 	    String str=scanner.next();
 	    int len=str.length();
-	    if(checkString(str,len,scanner))
+	    if(checkString(str))
 	    	System.out.print("Positive string");
 	    else
 	    	System.out.print("Negative string");
