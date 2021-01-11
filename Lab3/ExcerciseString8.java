@@ -9,7 +9,7 @@ public class ExcerciseString8 {
 	public static void main(String[] args) {
 		Scanner scanner = new Scanner(System.in);
 	    String str=scanner.next();
-	    int len=str.length();
+	    
 	    if(checkString(str))
 	    	System.out.print("Positive string");
 	    else
@@ -18,7 +18,7 @@ public class ExcerciseString8 {
 		private static boolean checkString(String str)
 		{
 			char []arr=str.toCharArray();
-			for(int index=0;index<len-1;index++)
+			for(int index=0;index<str.length()-1;index++)
 			{
 				if(arr[index]>arr[index+1])
 					return false;
